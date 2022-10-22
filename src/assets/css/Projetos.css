@@ -1,0 +1,143 @@
+.projects {
+  margin-top: 200px;
+}
+
+.projects-title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #f0f6fc;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.cards-projects {
+  display: block;
+  margin-top: 80px;
+}
+
+.card-container-project {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin-left: 20px;
+  border: 3px solid #484f58;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 8px #58a6ff;
+}
+
+.project-rocket {
+  width: 610px;
+}
+
+.name-project {
+  color: #c9d1d9;
+  font-size: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.description-project {
+  color: #c9d1d9;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.technologies-project {
+  margin-top: 20px;
+}
+
+.btn-container-project {
+  margin-top: 30px;
+}
+
+.btn-link-github,.btn-link-project {
+  color: #f0f6fc;
+  background-color: #1f6feb;
+  text-decoration: none;
+  width: 300px;
+  border:none;
+  height: 60px;
+  border-radius: 4px;
+  font-size: 23px;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-link-project {
+  margin-left: 20px;
+}
+
+.btn-link-github:hover,.btn-link-project:hover {
+  border:1px solid #58a6ff;
+  color: #58a6ff;
+  background-color: #161b22;
+  font-weight: 600;
+  transition-duration: .1s;
+}
+
+/* smartphone */
+@media screen and (max-width: 768px)  {
+  .card {
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  .image-project {
+    margin-left: 20px;
+    widht: 200px;
+  }
+
+  .card-container-project {
+    display: block;
+  }
+
+  .project-rocket {
+    max-width: 295px;
+  }
+
+  .info-project {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .btn-link-project {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+}
+
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .card {
+    margin-top: 20px;
+    width: 600px;
+  }
+
+  .card-container-project {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .project-rocket {
+    max-width: 590px;
+  }
+
+  .info-project {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .btn-link-project {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}

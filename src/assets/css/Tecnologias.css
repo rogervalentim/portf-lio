@@ -1,0 +1,262 @@
+.technologies-container {  
+  margin-top: 200px;
+}
+
+.technologies-title {
+  display: flex;
+  justify-content: center;
+  color: #f0f6fc;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.image-technologie {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.card-html,
+.card-css,
+.card-js,
+.card-nodejs,
+.card-git,
+.card-mysql,
+.card-bootstrap,
+.card-react {
+  height: 300px;
+  margin-left: 20px;
+  transition: all ease-in-out 1s;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid #484f58;
+}
+
+.technologies-cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto ;
+  row-gap: 30px;
+  margin-top: 80px;
+}
+
+.card-html:hover {
+  box-shadow: 8px 8px 8px #ff4500;
+}
+
+.card-css:hover {
+  box-shadow: 8px 8px 8px #1411af;
+}
+
+.card-js:hover {
+  box-shadow: 8px 8px 8px #ddef0b ;
+}
+
+.card-nodejs:hover {
+  box-shadow: 8px 8px 8px #10ef0b;
+}
+
+.card-git:hover {
+  box-shadow: 8px 8px 8px #ff4500;
+}
+
+.card-mysql:hover {
+  box-shadow: 8px 8px 8px #0b66ef;
+}
+
+.card-bootstrap:hover {
+  box-shadow: 8px 8px 8px #7d1cde;
+}
+
+.card-react:hover {
+  box-shadow: 8px 8px 8px #0befe1;
+}
+
+.name-technologie {
+  display: flex;
+  justify-content: center;
+  color: #f0f6fc;
+  font-size: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+/* celular */
+@media screen and (max-width: 768px) {
+  .technologies-container {  
+    margin-top: 200px;
+    margin-left: 10px;
+  }
+  
+  .technologies-title {
+    display: flex;
+    justify-content: center;
+    color: #f0f6fc;
+    font-weight: 400;
+    font-size: 50px;
+  }
+
+  .technologies-cards {
+    display: block;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .card-html,
+  .card-css,
+  .card-js,
+  .card-nodejs,
+  .card-git,
+  .card-mysql,
+  .card-bootstrap,
+  .card-react {
+    margin-top: 50px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid #484f58;
+  }
+
+  .card-html:hover {
+    box-shadow: 8px 8px 8px #ff4500;
+  }
+  
+  .card-css:hover {
+    box-shadow: 8px 8px 8px #1411af;
+  }
+  
+  .card-js:hover {
+    box-shadow: 8px 8px 8px #ddef0b ;
+  }
+  
+  .card-nodejs:hover {
+    box-shadow: 8px 8px 8px #10ef0b;
+  }
+  
+  .card-git:hover {
+    box-shadow: 8px 8px 8px #ff4500;
+  }
+  
+  .card-mysql:hover {
+    box-shadow: 8px 8px 8px #0b66ef;
+  }
+  
+  .card-bootstrap:hover {
+    box-shadow: 8px 8px 8px #7d1cde;
+  }
+  
+  .card-react:hover {
+    box-shadow: 8px 8px 8px #0befe1;
+  }
+  
+  .name-technologie {
+    display: flex;
+    justify-content: center;
+    color: #f0f6fc;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .image-technologie {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+
+}
+
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .technologies-container {  
+    margin-top: 200px;
+  }
+  
+  .technologies-title {
+    display: flex;
+    justify-content: center;
+    color: #f0f6fc;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  
+  .image-technologie {
+    width: 250px;
+    margin-top: 20px;
+  }
+  
+  .technologies-cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    margin-top: 80px;
+  }
+  
+  .card-html,
+  .card-css,
+  .card-js,
+  .card-nodejs,
+  .card-git,
+  .card-mysql,
+  .card-bootstrap,
+  .card-react {
+    height: 310px;
+    margin-left: 20px;
+    transition: all ease-in-out 1s;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid #484f58;
+  }
+  
+  .card-html:hover {
+    box-shadow: 8px 8px 8px #ff4500;
+  }
+  
+  .card-css:hover {
+    box-shadow: 8px 8px 8px #1411af;
+  }
+  
+  .card-js:hover {
+    box-shadow: 8px 8px 8px #ddef0b ;
+  }
+  
+  .card-nodejs:hover {
+    box-shadow: 8px 8px 8px #10ef0b;
+  }
+  
+  .card-git:hover {
+    box-shadow: 8px 8px 8px #ff4500;
+  }
+  
+  .card-mysql:hover {
+    box-shadow: 8px 8px 8px #0b66ef;
+  }
+  
+  .card-bootstrap:hover {
+    box-shadow: 8px 8px 8px #7d1cde;
+  }
+  
+  .card-react:hover {
+    box-shadow: 8px 8px 8px #0befe1;
+  
+  }
+
+  .name-technologie {
+    display: flex;
+    justify-content: center;
+    color: #f0f6fc;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .image-technologie {
+    width: 200px;
+    margin-left: 20px;
+  }
+  
+}
+
+
