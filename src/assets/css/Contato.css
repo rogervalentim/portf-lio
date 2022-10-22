@@ -60,6 +60,14 @@
 }
 
 /* smartphone */
+@media (max-width: 425px) {
+  .contact-image {
+    margin-left: 70px;
+    width: 400px;
+  }
+}
+
+/* smartphone */
 @media screen and (max-width: 768px)  {
   .contact {
     display: block;

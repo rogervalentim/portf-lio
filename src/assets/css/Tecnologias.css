@@ -80,8 +80,14 @@
   text-transform: uppercase;
 }
 
+/* smartphone */
+@media (max-width: 425px) {
+  .technologies-cards {
+  }
+}
 
-/* celular */
+
+/* smartphone */
 @media screen and (max-width: 768px) {
   .technologies-container {  
     margin-top: 200px;
@@ -111,8 +117,8 @@
   .card-bootstrap,
   .card-react {
     margin-top: 50px;
-    width: 250px;
-    margin-left: 20px;
+    width: 320px;
+    margin-left: 10px;
     border-radius: 10px;
     cursor: pointer;
     border: 3px solid #484f58;
@@ -161,7 +167,8 @@
 
   .image-technologie {
     margin-top: 20px;
-    margin-left: 20px;
+    width: 200px;
+    margin-left: 60px;
   }
 
 
@@ -182,10 +189,9 @@
   }
   
   .image-technologie {
-    width: 250px;
     margin-top: 20px;
   }
-  
+
   .technologies-cards {
     display: grid;
     justify-content: center;

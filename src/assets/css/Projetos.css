@@ -84,6 +84,17 @@
 }
 
 /* smartphone */
+@media (max-width: 425px) {
+  .project-rocket {
+    width: 100%;
+  }
+
+  .btn-link-github,.btn-link-project {
+    width: 100%;
+  }
+}
+
+/* smartphone */
 @media screen and (max-width: 768px)  {
   .card {
     margin-top: 20px;
