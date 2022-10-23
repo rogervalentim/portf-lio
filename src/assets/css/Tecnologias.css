@@ -81,13 +81,6 @@
 }
 
 /* smartphone */
-@media (max-width: 425px) {
-  .technologies-cards {
-  }
-}
-
-
-/* smartphone */
 @media screen and (max-width: 768px) {
   .technologies-container {  
     margin-top: 200px;
@@ -104,8 +97,7 @@
 
   .technologies-cards {
     display: block;
-    align-items: center;
-    margin-left: 20px;
+    margin: auto;
   }
 
   .card-html,
@@ -170,8 +162,6 @@
     width: 200px;
     margin-left: 60px;
   }
-
-
 }
 
 /* tablet */
@@ -179,15 +169,23 @@
   .technologies-container {  
     margin-top: 200px;
   }
-  
-  .technologies-title {
+
+  .technologies-title-container {
     display: flex;
     justify-content: center;
+  }
+  
+  .technologies-title {
     color: #f0f6fc;
     font-weight: 400;
     font-size: 50px;
   }
   
+  .image-technologie-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .image-technologie {
     margin-top: 20px;
   }
@@ -199,6 +197,11 @@
     row-gap: 30px;
     margin-top: 80px;
   }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
   
   .card-html,
   .card-css,
@@ -209,7 +212,6 @@
   .card-bootstrap,
   .card-react {
     height: 310px;
-    margin-left: 20px;
     transition: all ease-in-out 1s;
     border-radius: 10px;
     cursor: pointer;

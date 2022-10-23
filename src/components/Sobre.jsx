@@ -9,7 +9,9 @@ function Sobre() {
         <section className="about-container">
         <h3 className="about-title">Sobre Mim</h3>
         <section className="about-image-paragraph">
+          <div id="computer">
           <img className="computer" src={ Computer } alt="avatar sobre" />
+          </div>
           <p className="text-about-me">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui<br></br>
             debitis porro sequi cupiditate, velit dolore itaque voluptates<br></br>

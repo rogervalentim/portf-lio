@@ -71,20 +71,6 @@
 }
 
 /* smartphone */
-@media (max-width: 320px) {
-  .avatar {
-    margin-left: 100px;
-  }
-}
-
-/* smartphone */
-@media (max-width: 425px) {
-  .avatar {
-    margin-left: 30px;
-  }
-}
-
-/* smartphone */
 @media screen and (max-width: 767px) {
   .home-container {
     display: flex;
@@ -104,6 +90,11 @@
 
   .home-title {
     margin-top: 0;
+  }
+
+  .avatar-container {
+    display: flex;
+    justify-content: center;
   }
 
   .avatar {

@@ -61,9 +61,11 @@
 
 /* smartphone */
 @media (max-width: 425px) {
-  .contact-image {
-    margin-left: 70px;
-    width: 400px;
+  .contact-container {
+    /* margin-left: 70px;
+    width: 400px; */
+    display: flex;
+    justify-content: center;
   }
 }
 

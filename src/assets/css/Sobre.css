@@ -26,16 +26,13 @@
 }
 
 /* smartphone */
-@media (max-width: 425px) {
-  .computer {
-    margin-left: 30px;
-  }
-}
-
-/* smartphone */
 @media screen and (max-width: 768px)  {
   .about-image-paragraph {
     display: block;
+  }
+
+  #computer {
+    margin: auto;
   }
 
   .computer {
