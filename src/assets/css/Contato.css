@@ -56,18 +56,9 @@
 }
 
 .contact-image {
-  width: 500px;
+  max-width: 500px;
 }
 
-/* smartphone */
-@media (max-width: 425px) {
-  .contact-container {
-    /* margin-left: 70px;
-    width: 400px; */
-    display: flex;
-    justify-content: center;
-  }
-}
 
 /* smartphone */
 @media screen and (max-width: 768px)  {
@@ -97,12 +88,17 @@
   .contact-text {
     font-size: 18px;
   }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+  }
 }
+
 
 /* tablet */
 @media screen and (min-width:768px) and (max-width:1023px) {
   .contact-image {
-    width: 400px;
-    margin-left: 200px;
+    max-width: 400px;
   }
 }
