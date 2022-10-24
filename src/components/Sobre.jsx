@@ -13,7 +13,7 @@ function Sobre() {
               <img className="computer" src={Computer} alt="avatar sobre" />
             </div>
             <p className="text-about-me">
-              oi me chamo Roger Valentim, sempre soube que a chave para o
+              me chamo Roger Valentim e sou desenvolvedor full stack, sempre soube que a chave para o
               sucesso era o estudo, mas tinha dúvidas em qual área eu deveria
               estudar, até que eu descobri a programação no inicio de 2022 e
               desde então eu venho me identificando cada vez mais, venho

@@ -1,4 +1,4 @@
-.technologies-container {  
+.technologies-container {
   margin-top: 200px;
 }
 
@@ -34,7 +34,7 @@
 .technologies-cards {
   display: grid;
   justify-content: center;
-  grid-template-columns: auto auto auto auto ;
+  grid-template-columns: auto auto auto auto;
   row-gap: 30px;
   margin-top: 80px;
 }
@@ -48,7 +48,7 @@
 }
 
 .card-js:hover {
-  box-shadow: 8px 8px 8px #ddef0b ;
+  box-shadow: 8px 8px 8px #ddef0b;
 }
 
 .card-nodejs:hover {
@@ -82,11 +82,11 @@
 
 /* smartphone */
 @media screen and (max-width: 768px) {
-  .technologies-container {  
+  .technologies-container {
     margin-top: 200px;
     margin-left: 10px;
   }
-  
+
   .technologies-title {
     display: flex;
     justify-content: center;
@@ -96,8 +96,9 @@
   }
 
   .technologies-cards {
-    display: block;
-    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
   }
 
   .card-html,
@@ -119,35 +120,35 @@
   .card-html:hover {
     box-shadow: 8px 8px 8px #ff4500;
   }
-  
+
   .card-css:hover {
     box-shadow: 8px 8px 8px #1411af;
   }
-  
+
   .card-js:hover {
-    box-shadow: 8px 8px 8px #ddef0b ;
+    box-shadow: 8px 8px 8px #ddef0b;
   }
-  
+
   .card-nodejs:hover {
     box-shadow: 8px 8px 8px #10ef0b;
   }
-  
+
   .card-git:hover {
     box-shadow: 8px 8px 8px #ff4500;
   }
-  
+
   .card-mysql:hover {
     box-shadow: 8px 8px 8px #0b66ef;
   }
-  
+
   .card-bootstrap:hover {
     box-shadow: 8px 8px 8px #7d1cde;
   }
-  
+
   .card-react:hover {
     box-shadow: 8px 8px 8px #0befe1;
   }
-  
+
   .name-technologie {
     display: flex;
     justify-content: center;
@@ -165,8 +166,8 @@
 }
 
 /* tablet */
-@media screen and (min-width:768px) and (max-width:1023px) {
-  .technologies-container {  
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .technologies-container {
     margin-top: 200px;
   }
 
@@ -174,13 +175,13 @@
     display: flex;
     justify-content: center;
   }
-  
+
   .technologies-title {
     color: #f0f6fc;
     font-weight: 400;
     font-size: 50px;
   }
-  
+
   .image-technologie-container {
     display: flex;
     justify-content: center;
@@ -202,7 +203,7 @@
     display: flex;
     justify-content: center;
   }
-  
+
   .card-html,
   .card-css,
   .card-js,
@@ -217,38 +218,37 @@
     cursor: pointer;
     border: 3px solid #484f58;
   }
-  
+
   .card-html:hover {
     box-shadow: 8px 8px 8px #ff4500;
   }
-  
+
   .card-css:hover {
     box-shadow: 8px 8px 8px #1411af;
   }
-  
+
   .card-js:hover {
-    box-shadow: 8px 8px 8px #ddef0b ;
+    box-shadow: 8px 8px 8px #ddef0b;
   }
-  
+
   .card-nodejs:hover {
     box-shadow: 8px 8px 8px #10ef0b;
   }
-  
+
   .card-git:hover {
     box-shadow: 8px 8px 8px #ff4500;
   }
-  
+
   .card-mysql:hover {
     box-shadow: 8px 8px 8px #0b66ef;
   }
-  
+
   .card-bootstrap:hover {
     box-shadow: 8px 8px 8px #7d1cde;
   }
-  
+
   .card-react:hover {
     box-shadow: 8px 8px 8px #0befe1;
-  
   }
 
   .name-technologie {
@@ -264,7 +264,4 @@
     width: 200px;
     margin-left: 20px;
   }
-  
 }
-
-

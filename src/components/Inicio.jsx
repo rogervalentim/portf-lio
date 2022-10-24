@@ -7,7 +7,7 @@ import {
   faLinkedin,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import Curriculum from "../assets/images/inicio/Roger_ValentimDaSilva_Currículo_2.pdf"
+import Curriculum from "../assets/images/inicio/curriculo-Roger-Valentim.pdf"
 
 function Inicio() {
   return (
