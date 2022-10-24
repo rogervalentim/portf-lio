@@ -18,6 +18,8 @@
 .text-about-me {
   color: #c9d1d9;
   margin-top: 50px;
+  width: 45%;
+  font-size: 22px;
 }
 
 .computer {

@@ -7,6 +7,7 @@ import {
   faLinkedin,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import Curriculum from "../assets/images/inicio/Roger_ValentimDaSilva_Currículo_2.pdf"
 
 function Inicio() {
   return (
@@ -18,7 +19,7 @@ function Inicio() {
             Desenvolvedor Web
             <br></br>Full Stack !
           </h3>
-          <a className="link-btn">Baixar CV</a>
+          <a href={Curriculum} className="link-btn">Baixar CV</a>
         </div>
         <div className="avatar-container">
           <img className="avatar" src={Avatar} alt="avatar inicio" />

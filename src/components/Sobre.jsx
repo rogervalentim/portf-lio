@@ -7,29 +7,20 @@ function Sobre() {
     <>
       <section className="about" id="about">
         <section className="about-container">
-        <h3 className="about-title">Sobre Mim</h3>
-        <section className="about-image-paragraph">
-          <div id="computer">
-          <img className="computer" src={ Computer } alt="avatar sobre" />
-          </div>
-          <p className="text-about-me">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui<br></br>
-            debitis porro sequi cupiditate, velit dolore itaque voluptates<br></br>
-            soluta officiis, repudiandae eveniet repellat labore, voluptatum<br></br>
-            impedit inventore deleniti officia
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui<br></br>
-            debitis porro sequi cupiditate, velit dolore itaque voluptates<br></br>
-            soluta officiis, repudiandae eveniet repellat labore, voluptatum<br></br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui<br></br>
-            debitis porro sequi cupiditate, velit dolore itaque voluptates<br></br>
-            soluta officiis, repudiandae eveniet repellat labore, voluptatum<br></br>
-            impedit inventore deleniti officia
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui<br></br>
-            debitis porro sequi cupiditate, velit dolore itaque voluptates<br></br>
-            soluta officiis, repudiandae eveniet repellat labore, voluptatum<br></br>
-          </p>
+          <h3 className="about-title">Sobre Mim</h3>
+          <section className="about-image-paragraph">
+            <div id="computer">
+              <img className="computer" src={Computer} alt="avatar sobre" />
+            </div>
+            <p className="text-about-me">
+              oi me chamo Roger Valentim, sempre soube que a chave para o
+              sucesso era o estudo, mas tinha dúvidas em qual área eu deveria
+              estudar, até que eu descobri a programação no inicio de 2022 e
+              desde então eu venho me identificando cada vez mais, venho
+              participando de eventos da Rocktseat e outras comunidades, para eu
+              ir me capacitando cada vez mais, me considero pronto para a minha primeira oportunidade !
+            </p>
           </section>
-
         </section>
       </section>
     </>
