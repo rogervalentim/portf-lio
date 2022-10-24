@@ -12,6 +12,9 @@
   margin-left: 20px;
 }
 
+.contact-icon:hover {
+  color: #c9d1d9;
+}
 .contact-me {
   margin-top: 100px;
 }
@@ -86,7 +89,7 @@
   }
 
   .contact-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .contact-container {

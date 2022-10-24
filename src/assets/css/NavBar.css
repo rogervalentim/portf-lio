@@ -37,6 +37,7 @@ li {
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
+  background-color: #161b22;
 }
 
 .nav__toggler {

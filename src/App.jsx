@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+    <body>
       <NavBar />
       <Inicio />
       <Sobre />
@@ -17,6 +18,7 @@ function App() {
       <Projetos />
       <Contato />
       <Footer />
+      </body>
     </>
   );
 }

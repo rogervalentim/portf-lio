@@ -122,6 +122,11 @@
     margin-top: 0;
   }
 
+  .avatar-container {
+    display: grid;
+    justify-content: center;
+  }
+
   .avatar {
     max-width: 400px;
   }
