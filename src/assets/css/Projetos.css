@@ -16,27 +16,37 @@
   margin-top: 80px;
 }
 
-.card-container-project {
-  display: flex;
-  justify-content: space-evenly;
+.card-container-project-2 {
+  margin-top: 50px;
 }
 
 .card {
+  display: flex;
+  justify-content: center;
   margin-left: 20px;
-  border: 3px solid #484f58;
   border-radius: 10px;
   cursor: pointer;
 }
 
-.card:hover {
+.project-image {
+  width: 850px;
+  border-radius: 10px;
+}
+
+.project-image:hover {
   box-shadow: 8px 8px 8px #58a6ff;
 }
 
-.project-rocket {
-  width: 610px;
+.info-project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .name-project {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
   color: #c9d1d9;
   font-size: 23px;
   font-weight: 600;
@@ -55,6 +65,8 @@
 
 .btn-container-project {
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-link-github,.btn-link-project {
@@ -84,39 +96,39 @@
 }
 
 /* smartphone */
-@media (max-width: 425px) {
-  .project-rocket {
-    width: 100%;
-  }
-
-  .btn-link-github,.btn-link-project {
-    width: 100%;
-  }
-}
-
-/* smartphone */
 @media screen and (max-width: 768px)  {
   .card {
     margin-top: 20px;
-    width: 300px;
+  }
+
+  .image-project-container {
+    display: grid;
+    justify-content: center;
   }
 
   .image-project {
-    margin-left: 20px;
-    widht: 200px;
+    width: 200px;
   }
 
   .card-container-project {
     display: block;
   }
 
-  .project-rocket {
-    max-width: 295px;
+  .project-image {
+    width: 95%;
   }
 
   .info-project {
     margin-left: 20px;
     margin-top: 20px;
+  }
+
+  .btn-container-project {
+    display: block;
+  }
+
+  .btn-link-github,.btn-link-project {
+    width: 95%;
   }
 
   .btn-link-project {
@@ -130,16 +142,20 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
   .card {
     margin-top: 20px;
-    width: 600px;
   }
 
   .card-container-project {
     display: block;
-    margin-left: 10px;
   }
 
-  .project-rocket {
-    max-width: 590px;
+  .image-project-container {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .project-image {
+    width: 90%;
   }
 
   .info-project {
@@ -148,7 +164,7 @@
   }
 
   .btn-link-project {
-    margin-left: 20px;
+    margin-left: 0;
     margin-top: 20px;
   }
 }

@@ -13,9 +13,9 @@ Meu primeiro portfólio na área de programação
 
 <br>
 
-//<p align="center">
+<p align="center">
   <img alt="portfólio" src=".github/portfólio.png" width="100%">
-</p>//
+</p>
 
 ## 🚀 Tecnologias
 

@@ -15,6 +15,7 @@
 .contact-icon:hover {
   color: #c9d1d9;
 }
+
 .contact-me {
   margin-top: 100px;
 }
@@ -80,8 +81,7 @@
   }
 
   .contact-me-btn {
-    width: 90%;
-    margin-left: 20px;
+    width: 95%;
   }
 
   .icon-contact-me {
@@ -102,6 +102,10 @@
 /* tablet */
 @media screen and (min-width:768px) and (max-width:1023px) {
   .contact-image {
-    max-width: 400px;
+    width: 500px;
+  }
+
+  .contact-text {
+    font-size: 22px;
   }
 }

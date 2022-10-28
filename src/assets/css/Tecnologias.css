@@ -110,7 +110,7 @@
   .card-bootstrap,
   .card-react {
     margin-top: 50px;
-    width: 320px;
+    width: 80%;
     margin-left: 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -160,8 +160,8 @@
 
   .image-technologie {
     margin-top: 20px;
-    width: 200px;
-    margin-left: 60px;
+    width: 70%;
+    margin-left: 40px;
   }
 }
 
@@ -212,43 +212,12 @@
   .card-mysql,
   .card-bootstrap,
   .card-react {
-    height: 310px;
+    width: 85%;
+    height: auto;
     transition: all ease-in-out 1s;
     border-radius: 10px;
     cursor: pointer;
     border: 3px solid #484f58;
-  }
-
-  .card-html:hover {
-    box-shadow: 8px 8px 8px #ff4500;
-  }
-
-  .card-css:hover {
-    box-shadow: 8px 8px 8px #1411af;
-  }
-
-  .card-js:hover {
-    box-shadow: 8px 8px 8px #ddef0b;
-  }
-
-  .card-nodejs:hover {
-    box-shadow: 8px 8px 8px #10ef0b;
-  }
-
-  .card-git:hover {
-    box-shadow: 8px 8px 8px #ff4500;
-  }
-
-  .card-mysql:hover {
-    box-shadow: 8px 8px 8px #0b66ef;
-  }
-
-  .card-bootstrap:hover {
-    box-shadow: 8px 8px 8px #7d1cde;
-  }
-
-  .card-react:hover {
-    box-shadow: 8px 8px 8px #0befe1;
   }
 
   .name-technologie {
@@ -261,7 +230,7 @@
   }
 
   .image-technologie {
-    width: 200px;
-    margin-left: 20px;
+    width: 70%;
+    margin-right: 30px;
   }
 }
