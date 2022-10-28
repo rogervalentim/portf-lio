@@ -213,7 +213,6 @@
   .card-bootstrap,
   .card-react {
     width: 85%;
-    height: auto;
     transition: all ease-in-out 1s;
     border-radius: 10px;
     cursor: pointer;
