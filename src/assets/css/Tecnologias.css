@@ -110,7 +110,7 @@
   .card-bootstrap,
   .card-react {
     margin-top: 50px;
-    width: 80%;
+    width: 300px;
     margin-left: 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -160,8 +160,7 @@
 
   .image-technologie {
     margin-top: 20px;
-    width: 70%;
-    margin-left: 40px;
+    margin-left: 50px;
   }
 }
 
