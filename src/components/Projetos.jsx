@@ -47,7 +47,7 @@ function Projetos() {
           </div>
           <div className="card-container-project-2">
             <div className="card">
-              <a href="https://explorer-lab-project-ohn4vvfaq-rogervalentim.vercel.app/">
+                <a href="https://vermillion-froyo-1a0d9e.netlify.app/"  target="_blank">
                 <div className="image-project-container">
                   <img
                     className="project-image"

@@ -27,21 +27,21 @@ function Inicio() {
       </section>
 
       <section className="social-media">
-        <a href="https://www.linkedin.com/in/rogervalentim33/">
+        <a href="https://www.linkedin.com/in/rogervalentim33/" target="_blank">
           <FontAwesomeIcon
             id="linkedin-icon"
             className="contact-icon"
             icon={faLinkedin}
           ></FontAwesomeIcon>
         </a>
-        <a href="https://github.com/rogervalentim">
+        <a href="https://github.com/rogervalentim" target="_blank">
           <FontAwesomeIcon
             id="github-icon"
             className="contact-icon"
             icon={faGithub}
           ></FontAwesomeIcon>
         </a>
-        <a href="https://api.whatsapp.com/send/?phone=19994088614&text&type=phone_number&app_absent=0">
+        <a href="https://api.whatsapp.com/send/?phone=19994088614&text&type=phone_number&app_absent=0" target="_blank">
           <FontAwesomeIcon
             id="whatsapp-icon"
             className="contact-icon"
