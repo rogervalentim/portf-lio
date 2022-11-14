@@ -1,11 +1,6 @@
 import React from "react";
 import "../assets/css/Contato.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import ImageContact from "../assets/images/contato/contato.png";
 
@@ -23,7 +18,7 @@ function Contato() {
             <FontAwesomeIcon className="icon-contact-me" icon={faPhone} />{" "}
             Telefone: (19)3328-2160
           </p>
-          <a href="https://api.whatsapp.com/send/?phone=19994088614&text&type=phone_number&app_absent=0">
+          <a href="https://api.whatsapp.com/send/?phone=19994088614&text&type=phone_number&app_absent=0" target="_blank">
             <button className="contact-me-btn">contate-me</button>
           </a>
         </section>

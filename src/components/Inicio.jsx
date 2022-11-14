@@ -19,7 +19,7 @@ function Inicio() {
             Desenvolvedor Web
             <br></br>Full Stack !
           </h3>
-          <a href={Curriculum} className="link-btn">Baixar CV</a>
+          <a href={Curriculum} target="_blank" className="link-btn">Baixar CV</a>
         </div>
         <div className="avatar-container">
           <img className="avatar" src={Avatar} alt="avatar inicio" />
