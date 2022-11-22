@@ -22,6 +22,11 @@
   color: #58a6ff;
 }
 
+.avatar-container {
+  background-color: #58a6ff;
+  border-radius: 250px;
+}
+
 .avatar {
   width: 500px;
   animation-name: floating;

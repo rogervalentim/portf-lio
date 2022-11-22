@@ -80,6 +80,7 @@
   text-transform: uppercase;
 }
 
+
 /* smartphone */
 @media screen and (max-width: 768px) {
   .technologies-container {

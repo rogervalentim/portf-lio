@@ -57,6 +57,7 @@
   color: #c9d1d9;
   margin-top: 20px;
   font-size: 22px;
+  width: 60%;
 }
 
 .technologies-project {
@@ -121,6 +122,10 @@
   .info-project {
     margin-left: 20px;
     margin-top: 20px;
+  }
+
+  .description-project {
+    width: 100%;
   }
 
   .btn-container-project {

@@ -136,7 +136,7 @@ function Projetos() {
             <div className="card-container-project-2">
               <div className="card">
                 <a
-                  href="https://ecommerce-headphone.vercel.app/"
+                  href="https://app-music-rlvr33zlu-rogervalentim.vercel.app/"
                   target="_blank"
                 >
                   <div className="image-project-container">
@@ -153,10 +153,10 @@ function Projetos() {
                 <p className="description-project">
                   Lyrics app , é um projeto que para mim foi muito bom fazer ,
                   pelas tecnologias utilizadas e por eu gostar banstante de
-                  músicas ,<br /> o projeto contém a página de discover onde é
+                  músicas ,o projeto contém a página de discover onde é
                   possível acessar as músicas mais populares no momento,
-                  <br /> around you onde você consegue acessar as músicas do seu
-                  país ,<br /> a página de top artist ,que são os artistas mais
+                  around you onde você consegue acessar as músicas do seu
+                  país , a página de top artist ,que são os artistas mais
                   populares também e última página que é a top charts que é
                   responsavél de exibir as músicas mais buscadas
                   <p className="technologies-project">
@@ -173,7 +173,7 @@ function Projetos() {
                       <button className="btn-link-github">Ver Código</button>
                     </a>
                     <a
-                      href="https://roger-music-app.netlify.app/top-charts"
+                      href="https://app-music-rlvr33zlu-rogervalentim.vercel.app/"
                       target="_blank"
                     >
                       <button className="btn-link-project">
