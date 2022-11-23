@@ -6,8 +6,8 @@
   display: flex;
   justify-content: center;
   color:#f0f6fc;
-  font-size: 50px;
   font-weight: 400;
+  font-size: 40px;
 }
 
 .about-image-paragraph {
@@ -23,8 +23,7 @@
 }
 
 .computer {
-  width: 500px;
-  margin-right: 100px;
+  width: 400px;
 }
 
 /* smartphone */

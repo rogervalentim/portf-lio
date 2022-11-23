@@ -17,21 +17,21 @@ function Footer(){
         <section className="social-media">
         <a href="https://www.linkedin.com/in/rogervalentim33/"  target="_blank">
           <FontAwesomeIcon
-            id="linkedin-icon"
+            id="icon"
             className="contact-icon"
             icon={faLinkedin}
           ></FontAwesomeIcon>
         </a>
         <a href="https://github.com/rogervalentim"  target="_blank">
           <FontAwesomeIcon
-            id="github-icon"
+            id="icon"
             className="contact-icon"
             icon={faGithub}
           ></FontAwesomeIcon>
         </a>
         <a href="https://api.whatsapp.com/send/?phone=19994088614&text&type=phone_number&app_absent=0" target="_blank">
         <FontAwesomeIcon
-          id="whatsapp-icon"
+          id="icon"
           className="contact-icon"
           icon={faWhatsapp}
         ></FontAwesomeIcon>

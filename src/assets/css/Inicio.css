@@ -1,7 +1,6 @@
 .home-container {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 50px;
 }
 
 .container-title {
@@ -11,24 +10,20 @@
 
 .home-title {
   margin-top: 200px;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 400;
   color: #f0f6fc;
 }
 
 .text-animation {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 400;
   color: #58a6ff;
 }
 
-.avatar-container {
-  background-color: #58a6ff;
-  border-radius: 250px;
-}
-
 .avatar {
-  width: 500px;
+  width: 450px;
+  margin-top: 20px;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -51,11 +46,12 @@
   color: #f0f6fc;
   background-color: #1f6feb;
   text-decoration: none;
+  border: none;
   width: 350px;
-  height: 60px;
+  height: 50px;
   border-radius: 4px;
-  font-size: 23px;
-  padding: 12px;
+  font-size: 18px;
+  align-items: center;
   cursor: pointer;
   text-align: center;
   margin-top: 70px;
@@ -73,6 +69,10 @@
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+
+#icon {
+  width: 30px;
 }
 
 /* smartphone */

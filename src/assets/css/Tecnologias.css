@@ -7,12 +7,12 @@
   justify-content: center;
   color: #f0f6fc;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .image-technologie {
   margin-top: 20px;
-  width: 200px;
+  width: 150px;
 }
 
 .card-html,
@@ -23,7 +23,7 @@
 .card-mysql,
 .card-bootstrap,
 .card-react {
-  height: 300px;
+  height: 200px;
   margin-left: 20px;
   transition: all ease-in-out 1s;
   border-radius: 10px;
@@ -75,8 +75,8 @@
   display: flex;
   justify-content: center;
   color: #f0f6fc;
-  font-size: 23px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -112,56 +112,20 @@
   .card-react {
     margin-top: 50px;
     width: 300px;
-    margin-left: 20px;
+    align-items: center;
     border-radius: 10px;
     cursor: pointer;
     border: 3px solid #484f58;
   }
 
-  .card-html:hover {
-    box-shadow: 8px 8px 8px #ff4500;
-  }
-
-  .card-css:hover {
-    box-shadow: 8px 8px 8px #1411af;
-  }
-
-  .card-js:hover {
-    box-shadow: 8px 8px 8px #ddef0b;
-  }
-
-  .card-nodejs:hover {
-    box-shadow: 8px 8px 8px #10ef0b;
-  }
-
-  .card-git:hover {
-    box-shadow: 8px 8px 8px #ff4500;
-  }
-
-  .card-mysql:hover {
-    box-shadow: 8px 8px 8px #0b66ef;
-  }
-
-  .card-bootstrap:hover {
-    box-shadow: 8px 8px 8px #7d1cde;
-  }
-
-  .card-react:hover {
-    box-shadow: 8px 8px 8px #0befe1;
-  }
-
   .name-technologie {
     display: flex;
     justify-content: center;
-    color: #f0f6fc;
-    font-size: 23px;
-    font-weight: 600;
-    text-transform: uppercase;
   }
 
-  .image-technologie {
-    margin-top: 20px;
-    margin-left: 50px;
+  .image-technologie-container {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -189,6 +153,7 @@
 
   .image-technologie {
     margin-top: 20px;
+
   }
 
   .technologies-cards {
