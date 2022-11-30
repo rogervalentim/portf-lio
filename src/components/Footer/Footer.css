@@ -1,0 +1,12 @@
+h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  

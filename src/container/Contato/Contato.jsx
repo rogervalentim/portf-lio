@@ -1,8 +1,8 @@
 import React from "react";
-import "../assets/css/Contato.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import ImageContact from "../assets/images/contato/contato.png";
+import ImageContact from "../../assets/images/contato/contato.png";
+import "./Contato.css";
 
 function Contato() {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
-import "../assets/css/Footer.css";
-import "../assets/css/Inicio.css";
+import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,

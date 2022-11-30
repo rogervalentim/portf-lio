@@ -1,6 +1,6 @@
 import React from "react";
-import "../assets/css/Sobre.css";
-import Computer from "../assets/images/sobre/computer.png";
+import "./Sobre.css";
+import Computer from "../../assets/images/sobre/computer.png";
 
 function Sobre() {
   return (

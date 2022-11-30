@@ -1,0 +1,132 @@
+.home-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .container-title {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-title {
+    margin-top: 200px;
+    font-size: 45px;
+    font-weight: 400;
+    color: var(--color-title);
+  }
+  
+  .text-animation {
+    font-size: 45px;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+  
+  .avatar {
+    width: 450px;
+    margin-top: 20px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 15px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+  
+  .link-btn {
+    color: var(--color-title);
+    background-color: var(--button-color);
+    text-decoration: none;
+    border: none;
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 18px;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .link-btn:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    font-weight: 600;
+    transition-duration: 0.1s;
+  }
+  
+  #icon {
+    width: 20px;
+  }
+  
+  /* smartphone */
+  @media screen and (max-width: 767px) {
+    .home-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .home-title,
+    .text-animation {
+      font-size: 2.3em;
+      margin-left: 50px;
+    }
+  
+    .link-btn {
+      width: 90%;
+      margin-left: 20px;
+    }
+  
+    .home-title {
+      margin-top: 0;
+    }
+  
+    .avatar-container {
+      margin: auto;
+    }
+  
+    .avatar {
+      max-width: 350px;
+    }
+  }
+  
+  @media screen and (min-width: 767px) and (max-width: 1023px) {
+    .home-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .home-title,
+    .text-animation {
+      font-size: 50px;
+    }
+  
+    .link-btn {
+      width: 85%;
+      margin-left: 50px;
+    }
+  
+    .home-title {
+      margin-top: 0;
+    }
+  
+    .avatar-container {
+      display: grid;
+      justify-content: center;
+    }
+  
+    .avatar {
+      max-width: 500px;
+    }
+  }
+  

@@ -1,10 +1,10 @@
 import React from "react";
-import "../assets/css/Tecnologias.css";
+import "./Tecnologias.css";
 
 function Tecnologias() {
   return (
     <>
-      <section className="technologies-container" id="technologies">
+      <section className="technologies-container" id="tecnologies">
         <div className="technologies-title-container">
           <h4 className="technologies-title">Tecnologias</h4>
         </div>
