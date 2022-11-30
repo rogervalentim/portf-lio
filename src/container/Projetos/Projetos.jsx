@@ -55,8 +55,8 @@ function Projetos() {
           <ProjetoCard
             title="Restaurante"
             description="lorem"
-            linkGithub="https://github.com/rogervalentim/app-music"
-            demo="https://app-music-rlvr33zlu-rogervalentim.vercel.app/"
+            linkGithub="https://github.com/rogervalentim/restaurant-app"
+            demo="https://restaurant-a83azib2d-rogervalentim.vercel.app/"
           />
         </div>
         </div>
