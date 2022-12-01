@@ -50,11 +50,19 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .project {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
   .projects-cards {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .project {
+    margin-top: 20px;
   }
 }

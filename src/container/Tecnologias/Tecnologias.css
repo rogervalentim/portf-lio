@@ -177,7 +177,7 @@
     .card-mysql,
     .card-bootstrap,
     .card-react {
-      width: 85%;
+      width: 300px;
       transition: all ease-in-out 1s;
       border-radius: 10px;
       cursor: pointer;
@@ -189,13 +189,9 @@
       justify-content: center;
       color: #f0f6fc;
       font-size: 23px;
-      font-weight: 600;
+      font-weight: 400;
       text-transform: uppercase;
     }
   
-    .image-technologie {
-      width: 70%;
-      margin-right: 30px;
-    }
   }
   
