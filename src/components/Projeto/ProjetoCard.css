@@ -5,6 +5,12 @@
   color: var(--color-title);
 }
 
+.text-project {
+  color: var(--color-text);
+  margin-top: 10px;
+  text-align: center;
+}
+
 .buttons-project {
   display: flex;
   justify-content: center;
