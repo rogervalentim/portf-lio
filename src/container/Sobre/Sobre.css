@@ -69,7 +69,8 @@
     .text-about-me {
       color: var(--color-text) ;
       margin-top: 50px;
-      margin-left: 50px;
+      display: flex;
+      justify-content: center;
     }
     
     .computer {

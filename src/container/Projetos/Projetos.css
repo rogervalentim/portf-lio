@@ -23,24 +23,24 @@
 
 .project {
   margin-left: 20px;
-  border: 1px solid var(--color-text);
-  background-color: var(--bg-card);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.3);
   border-radius: 10px;
-  width: 360px;
+  width: 300px;
   height: 370px;
   display: flex;
+  transition: all ease-in-out 1s;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 
 .project:hover {
-  background-color: var(--bg-card-hover);
+  box-shadow: 8px 8px 8px var(--primary-color);
 }
-
 .project img {
-  width: 300px;
+  width: 250px;
   margin-top: 10px;
+  border-radius: 10px;
   cursor: pointer;
 }
 

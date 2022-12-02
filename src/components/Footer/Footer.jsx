@@ -13,7 +13,8 @@ function Footer(){
     return(
         <>
         <footer>
-        <section className="social-media">
+         <p className="text-footer">Feito por Roger valentim 2022</p> 
+        <div className="social-media-footer">
         <a href="https://www.linkedin.com/in/rogervalentim33/"  target="_blank">
           <FontAwesomeIcon
             id="icon"
@@ -35,8 +36,7 @@ function Footer(){
           icon={faWhatsapp}
         ></FontAwesomeIcon>
         </a>
-      </section>
-        <h3>copywrite 2022</h3>
+      </div>
         </footer>
         </>
     )

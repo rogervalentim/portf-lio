@@ -63,7 +63,7 @@ const Navbar = () => {
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
-          color="#fff"
+          color="#58a6ff"
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />
@@ -77,19 +77,29 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="link-navbar">
-                <a href="#home">Inicio</a>
+                <a href="#home" onClick={() => setToggleMenu(false)}>
+                  Inicio
+                </a>
               </li>
               <li className="link-navbar">
-                <a href="#about">Sobre</a>
+                <a href="#about" onClick={() => setToggleMenu(false)}>
+                  Sobre
+                </a>
               </li>
               <li className="link-navbar">
-                <a href="#tecnologies">Tecnologias</a>
+                <a href="#tecnologies" onClick={() => setToggleMenu(false)}>
+                  Tecnologias
+                </a>
               </li>
               <li className="link-navbar">
-                <a href="#projects">Projetos</a>
+                <a href="#projects" onClick={() => setToggleMenu(false)}>
+                  Projetos
+                </a>
               </li>
               <li className="link-navbar">
-                <a href="#contact">Contato</a>
+                <a href="#contact" onClick={() => setToggleMenu(false)}>
+                  Contato
+                </a>
               </li>
               <li>
                 <a

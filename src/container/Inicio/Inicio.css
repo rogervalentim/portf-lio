@@ -10,13 +10,13 @@
   
   .home-title {
     margin-top: 200px;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 400;
     color: var(--color-title);
   }
   
   .text-animation {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 400;
     color: var(--primary-color);
   }
@@ -82,14 +82,18 @@
     }
   
     .link-btn {
-      width: 90%;
-      margin-left: 20px;
+      width: 100%;
     }
   
     .home-title {
       display: flex;
       justify-content: center;
-      margin-top: 0;
+      margin-top: 10px;
+    }
+
+    .home-title,
+    .text-animation {
+      font-size: 35px;
     }
   
     .avatar-container {
@@ -110,8 +114,10 @@
     .home-title,
     .text-animation {
       font-size: 50px;
+      text-align: center;
     }
-  
+
+    
     .link-btn {
       width: 85%;
       margin-left: 50px;
