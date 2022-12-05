@@ -5,6 +5,7 @@ import WeatherApp from "../../assets/images/projetos/weather_app.png";
 import Ecommerce from "../../assets/images/projetos/ecommerce.png";
 import Lyrics from "../../assets/images/projetos/lyrics-app.png";
 import Restaurant from "../../assets/images/projetos/restaurant.png";
+import Bank from "../../assets/images/projetos/bank_modern.png";
 
 import ProjetoCard from "../../components/Projeto/ProjetoCard";
 
@@ -56,10 +57,19 @@ function Projetos() {
           <div className="project">
             <img src={Restaurant} alt="projeto restaurante" />
             <ProjetoCard
-              title="Restaurant"
+              title="Restaurante"
               description="O restaurant é um projeto, feito com um belo design e com o próposito de atrair clientes para o local."
               linkGithub="https://github.com/rogervalentim/restaurant-app"
               demo="https://restaurant-a83azib2d-rogervalentim.vercel.app/"
+            />
+          </div>
+          <div className="project">
+            <img src={Bank} alt="projeto banco" />
+            <ProjetoCard
+              title="Banco moderno"
+              description="o banco moderno é um app com a interface de formas de pagamento."
+              linkGithub="https://github.com/rogervalentim/bank_modern_app"
+              demo="https://bank-modern-f17xi1tbc-rogervalentim.vercel.app/"
             />
           </div>
         </div>

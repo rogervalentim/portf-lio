@@ -82,12 +82,7 @@
 
 /* smartphone */
 @media screen and (max-width: 768px) {
-  .technologies-container {
-    margin-top: 200px;
-    margin-left: 10px;
-  }
-
-  .technologies-title {
+.technologies-title {
     display: flex;
     justify-content: center;
     color: #f0f6fc;
@@ -96,8 +91,8 @@
   }
 
   .technologies-cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .card-html,
@@ -109,10 +104,16 @@
   .card-bootstrap,
   .card-react {
     margin-top: 50px;
-    width: 300px;
+    width: 150px;
+    height: 150px;
+    margin-left: 5;
     align-items: center;
     border-radius: 10px;
     cursor: pointer;
+  }
+
+  .image-technologie {
+    width: 100px;
   }
 
   .name-technologie {
