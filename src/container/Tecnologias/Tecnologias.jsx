@@ -18,7 +18,7 @@ function Tecnologias() {
                   alt="html icon"
                 />
               </div>
-              <p className="name-technologie">html</p>
+              <p className="name-technologie">Html</p>
             </div>
           </div>
           <div className="card-container">
@@ -30,7 +30,7 @@ function Tecnologias() {
                   alt="css icon"
                 />
               </div>
-              <p className="name-technologie">css</p>
+              <p className="name-technologie">Css</p>
             </div>
           </div>
           <div className="card-container">
@@ -42,7 +42,7 @@ function Tecnologias() {
                   alt="javascript icon"
                 />
               </div>
-              <p className="name-technologie">javascript</p>
+              <p className="name-technologie">Javascript</p>
             </div>
           </div>
           <div className="card-container">
@@ -54,7 +54,7 @@ function Tecnologias() {
                   alt="node js icon"
                 />
               </div>
-              <p className="name-technologie">node js</p>
+              <p className="name-technologie">Node Js</p>
             </div>
           </div>
           <div className="card-container">
@@ -66,7 +66,7 @@ function Tecnologias() {
                   alt="git icon"
                 />
               </div>
-              <p className="name-technologie">git</p>
+              <p className="name-technologie">Git</p>
             </div>
           </div>
           <div className="card-container">
@@ -78,19 +78,19 @@ function Tecnologias() {
                   alt="mysql2 icon"
                 />
               </div>
-              <p className="name-technologie">mysql</p>
+              <p className="name-technologie">MySql</p>
             </div>
           </div>
           <div className="card-container">
-            <div className="card-bootstrap">
+            <div className="card-mongodb">
               <div className="image-technologie-container">
                 <img
                   className="image-technologie"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                  alt="bootstrap icon"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="mongodb icon"
                 />
               </div>
-              <p className="name-technologie">bootstrap</p>
+              <p className="name-technologie">Mongodb</p>
             </div>
           </div>
           <div className="card-container">
@@ -102,7 +102,7 @@ function Tecnologias() {
                   alt="react icon"
                 />
               </div>
-              <p className="name-technologie">react</p>
+              <p className="name-technologie">React</p>
             </div>
           </div>
         </div>

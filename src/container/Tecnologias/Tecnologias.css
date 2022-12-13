@@ -21,7 +21,7 @@
 .card-nodejs,
 .card-git,
 .card-mysql,
-.card-bootstrap,
+.card-mongodb,
 .card-react {
   height: 200px;
   margin-left: 20px;
@@ -63,8 +63,8 @@
   box-shadow: 8px 8px 8px #0b66ef;
 }
 
-.card-bootstrap:hover {
-  box-shadow: 8px 8px 8px #7d1cde;
+.card-mongodb:hover {
+  box-shadow: 8px 8px 8px #3FA037;
 }
 
 .card-react:hover {
@@ -101,7 +101,7 @@
   .card-nodejs,
   .card-git,
   .card-mysql,
-  .card-bootstrap,
+  .card-mongodb,
   .card-react {
     margin-top: 10px;
     width: 150px;
@@ -171,7 +171,7 @@
   .card-nodejs,
   .card-git,
   .card-mysql,
-  .card-bootstrap,
+  .card-mongodb,
   .card-react {
     width: 300px;
     transition: all ease-in-out 1s;

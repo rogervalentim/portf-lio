@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projetos.css";
 import RocketPay from "../../assets/images/projetos/rocket-pay.png";
-import WeatherApp from "../../assets/images/projetos/weather_app.png";
 import Ecommerce from "../../assets/images/projetos/ecommerce.png";
 import Lyrics from "../../assets/images/projetos/lyrics-app.png";
 import Restaurant from "../../assets/images/projetos/restaurant.png";
 import Bank from "../../assets/images/projetos/bank_modern.png";
+import Sociopedia from "../../assets/images/projetos/sociopedia_roger.png";
 
 import ProjetoCard from "../../components/Projeto/ProjetoCard";
 
@@ -24,16 +24,6 @@ function Projetos() {
               e com as validações de cada tipo de cartão"
               linkGithub="https://github.com/rogervalentim/explorer-lab"
               demo="https://explorer-lab-project-ohn4vvfaq-rogervalentim.vercel.app/"
-            />
-          </div>
-          <div className="project">
-            <img src={WeatherApp} alt="Aplicativo para ver o clima" />
-            <ProjetoCard
-              title="Weather App"
-              description="O Weather App é um projeto, 
-              onde é possível acessar o clima de todas cidades do mundo inteiro."
-              linkGithub="https://github.com/rogervalentim/weather_app"
-              demo="https://vermillion-froyo-1a0d9e.netlify.app/"
             />
           </div>
           <div className="project">
@@ -70,6 +60,15 @@ function Projetos() {
               description="o banco moderno é um app com a interface de formas de pagamento."
               linkGithub="https://github.com/rogervalentim/bank_modern_app"
               demo="https://bank-modern-f17xi1tbc-rogervalentim.vercel.app/"
+            />
+          </div>
+          <div className="project">
+            <img src={Sociopedia} alt="Aplicativo para ver o clima" />
+            <ProjetoCard
+              title="Sociopedia"
+              description="O sociopedia App é um projeto de rede social, onde é possível, adicionar amigos, curtir as publicações e ver os comentários"
+              linkGithub="https://github.com/rogervalentim/socialMedia-frontend"
+              demo="https://social-media-frontend-74xw8bw2n-rogervalentim.vercel.app/"
             />
           </div>
         </div>
