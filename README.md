@@ -25,12 +25,12 @@ Meu primeiro portfólio na área de programação
 
 <h1 align="center">Tecnologias</h1>
 <p align="center">
-  <img alt="portfólio" src=".github/portfolio-tecnologias.png" width="100%">
+  <img alt="portfólio" src=".github/tecnologias-novas.png" width="100%">
 </p>
 
 <h1 align="center">Projetos</h1>
 <p align="center">
-  <img alt="portfólio" src=".github/portfolio-projetos.png" width="100%">
+  <img alt="portfólio" src=".github/projetos_novos.png" width="100%">
 </p>
 
 <h1 align="center">Contato</h1>
