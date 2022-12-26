@@ -1,13 +1,13 @@
 import React from "react";
 import "./Projetos.css";
+import ProjetoCard from "../../components/Projeto/ProjetoCard";
+
 import RocketPay from "../../assets/images/projetos/rocket-pay.png";
 import Ecommerce from "../../assets/images/projetos/ecommerce.png";
 import Lyrics from "../../assets/images/projetos/lyrics-app.png";
 import Restaurant from "../../assets/images/projetos/restaurant.png";
-import Bank from "../../assets/images/projetos/bank_modern.png";
 import Sociopedia from "../../assets/images/projetos/sociopedia_roger.png";
-
-import ProjetoCard from "../../components/Projeto/ProjetoCard";
+import Dashboard from "../../assets/images/projetos/dashboard.png";
 
 function Projetos() {
   return (
@@ -54,21 +54,21 @@ function Projetos() {
             />
           </div>
           <div className="project">
-            <img src={Bank} alt="projeto banco" />
-            <ProjetoCard
-              title="Banco moderno"
-              description="o banco moderno é um app com a interface de formas de pagamento."
-              linkGithub="https://github.com/rogervalentim/bank_modern_app"
-              demo="https://bank-modern-f17xi1tbc-rogervalentim.vercel.app/"
-            />
-          </div>
-          <div className="project">
             <img src={Sociopedia} alt="Aplicativo para ver o clima" />
             <ProjetoCard
               title="Sociopedia"
               description="O sociopedia App é um projeto de rede social, onde é possível, adicionar amigos, curtir as publicações e ver os comentários"
               linkGithub="https://github.com/rogervalentim/socialMedia-frontend"
-              demo="https://social-media-frontend-74xw8bw2n-rogervalentim.vercel.app/"
+              demo="https://socialmedia-frontend-gl18.onrender.com/"
+            />
+          </div>
+          <div className="project">
+            <img src={Dashboard} alt="projeto dashboard" />
+            <ProjetoCard
+              title="Dashboard"
+              description="o Dashboard é um painel que mostra indicadores de negócios de usuários. "
+              linkGithub="https://github.com/rogervalentim/dashboard_frontend"
+              demo="https://dashboard-frontend1.onrender.com/dashboard"
             />
           </div>
         </div>
