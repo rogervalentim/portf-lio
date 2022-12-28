@@ -11,7 +11,7 @@ function Contato() {
         <section className="contact-me" id="contact">
           <h2 className="contact-me-title">Entre em Contato</h2>
           <p className="contact-text">
-            <FontAwesomeIcon className="icon-contact-me" icon={faEnvelope} />{" "}
+          <FontAwesomeIcon className="icon-contact-me" icon={faEnvelope} />{" "}
             E-mail: valentim.roger33@gmail.com
           </p>
           <p className="contact-text">

@@ -28,7 +28,7 @@
   transition: all ease-in-out 1s;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 8px 32px 0  rgba(0, 0, 0, 0.36j);
+  box-shadow: 0 8px 32px 0  rgba(0, 0, 0, 0.36);
 }
 
 .technologies-cards {

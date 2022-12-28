@@ -68,7 +68,7 @@ function Projetos() {
               title="Dashboard"
               description="o Dashboard é um painel que mostra indicadores de negócios de usuários. "
               linkGithub="https://github.com/rogervalentim/dashboard_frontend"
-              demo="https://dashboard-frontend1.onrender.com/dashboard"
+              demo="https://dashboard-frontend1.onrender.com/"
             />
           </div>
         </div>
