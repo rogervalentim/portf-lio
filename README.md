@@ -20,17 +20,17 @@ Meu primeiro portfólio na área de programação
 
 <h1 align="center">Sobre Mim</h1>
 <p align="center">
-  <img alt="portfólio" src=".github/portfolio-sobre-mim.png" width="100%">
+  <img alt="portfólio" src=".github/portfolio-sobre.png" width="100%">
 </p>
 
 <h1 align="center">Tecnologias</h1>
 <p align="center">
-  <img alt="portfólio" src=".github/tecnologias-novas.png" width="100%">
+  <img alt="portfólio" src=".github/portfolio-tecnologias.png" width="100%">
 </p>
 
 <h1 align="center">Projetos</h1>
 <p align="center">
-  <img alt="portfólio" src=".github/projetos_novos.png" width="100%">
+  <img alt="portfólio" src=".github/portfolio-projetos.png" width="100%">
 </p>
 
 <h1 align="center">Contato</h1>
@@ -45,7 +45,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - React
+- React Hooks Form
 - [Node e NPM](https://nodejs.org/)
+
 
 ## 💻 Projeto
 
