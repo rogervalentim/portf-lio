@@ -1,7 +1,6 @@
 .projects {
   margin-top: 200px;
   border: 1px solid var(--color-primary);
-
 }
 
 .projects h1 {
@@ -18,12 +17,11 @@
   justify-content: center;
   row-gap: 30px;
   margin-top: 50px;
-
 }
 
 .project {
   margin-left: 20px;
-  box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+  background: var(--bg-card);
   border-radius: 10px;
   width: 300px;
   height: 370px;
@@ -34,10 +32,6 @@
   align-items: center;
 }
 
-.project:hover {
-  box-shadow: 8px 8px 8px var(--primary-color);
-}
-
 .project img {
   width: 250px;
   margin-top: 10px;
@@ -45,8 +39,7 @@
   cursor: pointer;
 }
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .projects-cards {
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +50,7 @@
   }
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .projects-cards {
     display: flex;
     flex-wrap: wrap;

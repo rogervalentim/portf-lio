@@ -14,7 +14,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar" id="navbar">
       <div className="app__navbar-logo">
         <h1>Roger</h1>
       </div>
