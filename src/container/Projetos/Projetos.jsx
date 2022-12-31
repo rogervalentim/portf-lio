@@ -59,7 +59,7 @@ function Projetos() {
               title="Sociopedia"
               description="O sociopedia App é um projeto de rede social, onde é possível, adicionar amigos, curtir as publicações e ver os comentários"
               linkGithub="https://github.com/rogervalentim/socialMedia-frontend"
-              demo="https://socialmedia-frontend-gl18.onrender.com/"
+              demo="https://socialmedia-frontend3.onrender.com/"
             />
           </div>
           <div className="project">
