@@ -114,7 +114,7 @@ form p {
 }
 
 /* smartphone */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .contact {
     display: block;
     width: 100%;
@@ -136,12 +136,21 @@ form p {
   form {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    row-gap: 20px;
-  }  
+    align-items: center;
+    margin-top: 30px;
+    row-gap: 30px;
+  }
 
-  .contact-text {
-    font-size: 16px;
+  form input {
+    width: 250px;
+  }
+
+  form textarea {
+    width: 250px;
+  }
+
+  .contact-me-btn {
+    width: 150px;
   }
 
   .contact-container {
@@ -152,11 +161,30 @@ form p {
 
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact {
+    display: block;
+  }
+
+  form {
+    align-items: center;
+    margin-top: 30px;
+    row-gap: 30px;
+  }
+
+  form input {
+    width: 500px;
+  }
+
+  textarea {
+    width: 500px;
+  }
+
   .contact-image {
     width: 500px;
   }
 
-  .contact-text {
-    font-size: 22px;
+  .contact-container {
+    display: grid;
+    justify-content: center;
   }
 }

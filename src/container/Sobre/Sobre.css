@@ -12,14 +12,15 @@
   
   .about-image-paragraph {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   
   .text-about-me {
     color: var(--color-text);
+    text-align: center;
     margin-top: 50px;
-    width: 45%;
     font-size: 20px;
+    width: 45%;
   }
   
   .computer {
