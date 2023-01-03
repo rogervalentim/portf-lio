@@ -3,7 +3,6 @@ import "./Inicio.css";
 import Avatar from "../../assets/images/inicio/avatar.png";
 import Curriculum from "../../assets/images/inicio/curriculo-Roger-Valentim.pdf";
 
-
 function Inicio() {
   return (
     <>

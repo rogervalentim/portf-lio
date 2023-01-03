@@ -6,8 +6,8 @@ import RocketPay from "../../assets/images/projetos/rocket-pay.png";
 import Ecommerce from "../../assets/images/projetos/ecommerce.png";
 import Lyrics from "../../assets/images/projetos/lyrics-app.png";
 import Restaurant from "../../assets/images/projetos/restaurant.png";
-import Sociopedia from "../../assets/images/projetos/sociopedia_roger.png";
 import Dashboard from "../../assets/images/projetos/dashboard.png";
+import Gym from "../../assets/images/projetos/gym.png";
 
 function Projetos() {
   return (
@@ -54,21 +54,21 @@ function Projetos() {
             />
           </div>
           <div className="project">
-            <img src={Sociopedia} alt="Aplicativo para ver o clima" />
-            <ProjetoCard
-              title="Sociopedia"
-              description="O sociopedia App é um projeto de rede social, onde é possível, adicionar amigos, curtir as publicações e ver os comentários"
-              linkGithub="https://github.com/rogervalentim/socialMedia-frontend"
-              demo="https://socialmedia-frontend3.onrender.com/"
-            />
-          </div>
-          <div className="project">
             <img src={Dashboard} alt="projeto dashboard" />
             <ProjetoCard
               title="Dashboard"
               description="o Dashboard é um painel que mostra indicadores de negócios de usuários. "
               linkGithub="https://github.com/rogervalentim/dashboard_frontend"
               demo="https://dashboard-frontend1.onrender.com/"
+            />
+          </div>
+          <div className="project">
+            <img src={Gym} alt="Aplicativo de academia" />
+            <ProjetoCard
+              title="Sociopedia"
+              description="Gym app é um projeto fitness, para atrair clientes e mostrar os beneficios de uma academia"
+              linkGithub="https://github.com/rogervalentim/gym_app"
+              demo="https://gym-app-mocha.vercel.app/"
             />
           </div>
         </div>

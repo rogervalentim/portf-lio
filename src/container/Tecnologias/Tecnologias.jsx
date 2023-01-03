@@ -2,6 +2,7 @@ import React from "react";
 import "./Tecnologias.css";
 
 function Tecnologias() {
+
   return (
     <>
       <section className="technologies-container" id="tecnologies">

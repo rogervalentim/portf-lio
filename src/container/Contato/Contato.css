@@ -1,6 +1,6 @@
 .contact {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 200px;
 }
 
@@ -42,7 +42,7 @@ form {
 
 form input {
   height: 40px;
-  max-width: 500px;
+  width: 650px;
   background-color: var(--bg-card);
   border: 1px solid var(--button-color);
   color: var(--color-text);

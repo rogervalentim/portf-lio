@@ -8,7 +8,7 @@ function Sobre() {
       <section className="about" id="about">
         <section className="about-container">
           <h3 className="about-title">Sobre Mim</h3>
-          <section className="about-image-paragraph">
+          <div className="about-image-paragraph">
             <div className="computer-container">
               <img className="computer" src={Computer} alt="avatar sobre" />
             </div>
@@ -20,7 +20,7 @@ function Sobre() {
               participando de eventos da Rocktseat e outras comunidades, para eu
               ir me capacitando cada vez mais, me considero pronto para a minha primeira oportunidade !
             </p>
-          </section>
+          </div>
         </section>
       </section>
     </>
