@@ -1,15 +1,4 @@
-<h1 align="center"> Meu Portfólio </h1>
-
-<p align="center">
-Meu primeiro portfólio na área de programação
-</p>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-
+<h1 align="center">💻Meu Portfolio </h1>
 
 <br>
 
@@ -18,28 +7,10 @@ Meu primeiro portfólio na área de programação
   <img alt="portfólio" src=".github/portfolio-inicio.png" width="100%">
 </p>
 
-<h1 align="center">Sobre Mim</h1>
-<p align="center">
-  <img alt="portfólio" src=".github/portfolio-sobre.png" width="100%">
-</p>
-
-<h1 align="center">Tecnologias</h1>
-<p align="center">
-  <img alt="portfólio" src=".github/portfolio-tecnologias.png" width="100%">
-</p>
-
-<h1 align="center">Projetos</h1>
-<p align="center">
-  <img alt="portfólio" src=".github/portfolio-projetos.png" width="100%">
-</p>
-
-<h1 align="center">Contato</h1>
-<p align="center">
-  <img alt="portfólio" src=".github/portfolio-contato.png" width="100%">
-</p>
+<a align="center" href="https://portfolio-27cuqpcpb-rogervalentim.vercel.app/">Acesse o projeto cliacando aqui</a>
 
 
-## 🚀 Tecnologias
+<h1>💼 Tecnologias</h1>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -49,11 +20,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node e NPM](https://nodejs.org/)
 
 
-## 💻 Projeto
-
-Esse é o meu primeiro portfólio de programação
-
-
-
----
 
