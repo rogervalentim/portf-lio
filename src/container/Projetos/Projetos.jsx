@@ -65,7 +65,7 @@ function Projetos() {
           <div className="project">
             <img src={Gym} alt="Aplicativo de academia" />
             <ProjetoCard
-              title="Sociopedia"
+              title="Gym app"
               description="Gym app é um projeto fitness, para atrair clientes e mostrar os beneficios de uma academia"
               linkGithub="https://github.com/rogervalentim/gym_app"
               demo="https://gym-app-mocha.vercel.app/"
