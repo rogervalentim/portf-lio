@@ -2,13 +2,12 @@
 
 <br>
 
-<h1 align="center">Inicio</h1>
 <p align="center">
   <img alt="portfólio" src=".github/portfolio-inicio.png" width="100%">
 </p>
 
 <div align="center">
-<a  href="https://portfolio-27cuqpcpb-rogervalentim.vercel.app/">Acesse o projeto cliacando aqui</a>
+<a  href="https://portfolio-27cuqpcpb-rogervalentim.vercel.app/">Acesse o projeto clicando aqui</a>
 </div>
 
 <h1>💼 Tecnologias</h1>
