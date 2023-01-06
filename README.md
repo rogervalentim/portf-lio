@@ -10,6 +10,9 @@
 <a  href="https://portfolio-27cuqpcpb-rogervalentim.vercel.app/">Acesse o projeto clicando aqui</a>
 </div>
 
+<h1>🎨 Figma</h1>
+<a href="https://www.figma.com/file/82BM3XesUT9iHNjYkkBWww/Untitled?node-id=0%3A1&t=ei9ZrF6iZxclkyrU-1">Clique aqui para ver o design no figma</h1>
+
 <h1>💼 Tecnologias</h1>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
