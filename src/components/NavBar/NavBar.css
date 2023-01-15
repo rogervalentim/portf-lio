@@ -20,6 +20,7 @@
 a {
   color: var(--color-text);
   text-decoration: none;
+  font-size: 18px;
 }
 
 a:hover {

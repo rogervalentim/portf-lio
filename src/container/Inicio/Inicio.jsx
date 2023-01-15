@@ -12,7 +12,7 @@ function Inicio() {
           <h3 className="home-title">Olá eu sou o Roger,</h3>
           <TypeAnimation
             sequence={[
-              "Desenvolvedor Web", 
+              "Desenvolvedor", 
               1000,
               "Full Stack !",
               2000,
@@ -21,10 +21,12 @@ function Inicio() {
             cursor={true}
             repeat={Infinity}
             className="text-animation"
-
           />
           <a href={Curriculum} target="_blank">
-            <button className="link-btn">Baixar CV</button>
+            <button 
+            className="link-btn">
+            Baixar CV
+              </button>
           </a>
         </div>
         <div className="avatar-container">
