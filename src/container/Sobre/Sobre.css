@@ -13,6 +13,7 @@
   .about-image-paragraph {
     display:flex;
     justify-content: space-around;
+    margin-top: 100px;
   }
   
   .text-about-me {
@@ -51,31 +52,9 @@
   
   /* tablet */
   @media screen and (min-width:767px) and (max-width:1023px) {
-    .about-container {
-      margin-top: 200px;
-    }
-    
-    .about-title {
-      display: flex;
-      justify-content: center;
-      color: var(--color-text);
-      font-size: 50px;
-      font-weight: 400;
-    }
-    
     .about-image-paragraph {
-      display: block;
-    }
-    
-    .text-about-me {
-      color: var(--color-text) ;
-      margin-top: 50px;
       display: flex;
       justify-content: center;
-    }
-    
-    .computer {
-      width: 500px;
     }
   
   }

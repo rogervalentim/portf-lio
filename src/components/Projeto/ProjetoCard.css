@@ -1,3 +1,14 @@
+.card-project {
+  margin-left: 20px;
+  background: var(--bg-card);
+  border-radius: 10px;
+  width: 300px;
+  height: 370px;
+  transition: all ease-in-out 1s;
+  align-items: center;
+  text-align: center;
+}
+
 .title-project {
   display: flex;
   justify-content: center;

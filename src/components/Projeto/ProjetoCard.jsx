@@ -1,11 +1,12 @@
 import React from "react";
+
 import "./ProjetoCard.css";
 
-
-
-const ProjetoCard = ({ title, description, linkGithub, demo }) => {
+const ProjetoCard = ({ image, title, description, linkGithub, demo }) => {
   return (
+    <section className="projects">
     <div className="card-project">
+      <img src={image} alt={`${image}`} />
       <h3 className="title-project">{title}</h3>
       <p className="text-project">{description}</p>
       <div className="buttons-project">
@@ -21,6 +22,7 @@ const ProjetoCard = ({ title, description, linkGithub, demo }) => {
       </a>
       </div>
     </div>
+    </section>
   );
 };
 

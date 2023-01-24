@@ -4,6 +4,7 @@ import Avatar from "../../assets/images/inicio/avatar.png";
 import Curriculum from "../../assets/images/inicio/curriculo-Roger-Valentim.pdf";
 import { TypeAnimation } from "react-type-animation";
 
+
 function Inicio() {
   return (
     <>
