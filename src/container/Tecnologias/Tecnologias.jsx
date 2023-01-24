@@ -1,17 +1,12 @@
-// import Swiper core and required modules
-import { Navigation, Pagination, A11y } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
 
-import TecnologiasCard from "../../components/Tecnologias/TecnologiasCard";
-
-// Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 import "./Tecnologias.css";
+
+import TecnologiasCard from '../../components/Tecnologias/TecnologiasCard';
 
 const tecnologies = [
   {
@@ -28,9 +23,8 @@ const tecnologies = [
 
   {
     imagem:
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
     name: "Tailwindcss"
-          
   },
 
   {
@@ -46,9 +40,9 @@ const tecnologies = [
   },
 
   {
-    imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    imagem:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     name: "Git"
-
   },
 
   {
@@ -82,13 +76,13 @@ function Tecnologias() {
       <h1 className="technologies-title">Tecnologias</h1>
       <div className="card">
         <Swiper
-          modules={[Navigation, Pagination, A11y]}
-          spaceBetween={50}
           slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          spaceBetween={30}
+          pagination={{
+            clickable: true
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
         >
           {tecnologies.map((technologie, i) => (
             <SwiperSlide key={i}>
@@ -99,7 +93,6 @@ function Tecnologias() {
               />
             </SwiperSlide>
           ))}
-          ...
         </Swiper>
       </div>
     </section>

@@ -10,19 +10,6 @@
   font-size: 40px;
 }
 
-.image-technologie {
-  margin-top: 20px;
-  width: 150px;
-}
-
-.name-technologie {
-  display: flex;
-  justify-content: center;
-  color: #f0f6fc;
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
 
 .card {
   display: flex;

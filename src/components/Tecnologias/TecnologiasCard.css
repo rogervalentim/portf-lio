@@ -1,5 +1,5 @@
 .card-technologie {
-  width: 200px;
+  width: 350px;
   margin-left: 20px;
   transition: all ease-in-out 1s;
   border-radius: 10px;
@@ -10,7 +10,7 @@
 }
 
 .card-technologie img {
-  width: 100px;
+  width: 150px;
 }
 
 .card-technologie h3 {
