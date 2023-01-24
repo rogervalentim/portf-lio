@@ -75,15 +75,16 @@ function Tecnologias() {
     <section className="technologies-container" id="tecnologies">
       <h1 className="technologies-title">Tecnologias</h1>
       <div className="card">
-        <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
-          pagination={{
-            clickable: true
-          }}
-          modules={[Pagination]}
-          className="mySwiper"
-        >
+      <Swiper
+        slidesPerView={4}
+        spaceBetween={30}
+        centeredSlides={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
           {tecnologies.map((technologie, i) => (
             <SwiperSlide key={i}>
               <TecnologiasCard
