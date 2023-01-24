@@ -20,6 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - React
 - React Hooks Form
+- Swiper
 - [Node e NPM](https://nodejs.org/)
 
 

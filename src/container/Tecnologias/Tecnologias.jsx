@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -82,9 +82,9 @@ function Tecnologias() {
       <h1 className="technologies-title">Tecnologias</h1>
       <div className="card">
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
-          slidesPerView={4}
+          slidesPerView={3}
           navigation
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
