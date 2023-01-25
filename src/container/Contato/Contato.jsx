@@ -1,8 +1,10 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+
 import ImageContact from "../../assets/images/contato/contato.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+
 import "./Contato.css";
 
 function Contato() {
@@ -93,12 +95,6 @@ function Contato() {
           <img className="contact-image" src={ImageContact} />
         </div>
       </section>
-      <a className="arrow" href="#navbar">
-        <FontAwesomeIcon
-         className="fa-solid fa-arrow-up fa-2xl"
-          icon={faArrowUp}
-        ></FontAwesomeIcon>
-      </a>
     </>
   );
 }

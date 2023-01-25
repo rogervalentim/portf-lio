@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  height: 70px;
   z-index: 100;
   background-color: var(--bg-color);
 }
@@ -30,6 +31,8 @@ a:hover {
   color: var(--primary-color);
 }
 
+
+
 .app__navbar-links {
   display: flex;
   flex: 1;
@@ -42,13 +45,13 @@ a:hover {
   cursor: pointer;
 }
 
-.app__navbar-login {
+.app__navbar-icons {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.app__navbar-login a {
+.app__navbar-icons a {
   margin: 0 1rem;
   text-decoration: none;
   transition: 0.5s ease;
@@ -94,9 +97,6 @@ a:hover {
   color: white;
 }
 
-.contact:hover {
-  color: #fff;
-}
 
 @media screen and (max-width: 2000px) {
   .app__navbar-logo img {

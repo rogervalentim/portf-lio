@@ -1,0 +1,14 @@
+.icon {
+    color: var(--primary-color);
+    transition: 1s;
+    padding: 10px;
+  }
+  
+  .icon:hover {
+    color: var(--color-title);
+}
+
+@media screen and (max-width: 767px) {
+  
+}
+  

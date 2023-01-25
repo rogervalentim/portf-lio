@@ -1,12 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+
+import Icons from "../Icons/Icons";
 
 import "./NavBar.css";
 
@@ -35,32 +32,12 @@ const Navbar = () => {
           <a href="#contact">Contato</a>
         </li>
       </ul>
-      <div className="app__navbar-login">
-        <a href="https://www.linkedin.com/in/rogervalentim33/" target="_blank">
-          <FontAwesomeIcon
-            id="icon"
-            className="contact-icon"
-            icon={faLinkedin}
-          ></FontAwesomeIcon>
-        </a>
-        <a href="https://github.com/rogervalentim" target="_blank">
-          <FontAwesomeIcon
-            id="icon"
-            className="contact-icon"
-            icon={faGithub}
-          ></FontAwesomeIcon>
-        </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=19994088614&text&type=phone_number&app_absent=0"
-          target="_blank"
-        >
-          <FontAwesomeIcon
-            id="icon"
-            className="contact-icon"
-            icon={faWhatsapp}
-          ></FontAwesomeIcon>
-        </a>
-      </div>
+    {/* icons  */}
+
+    <div className="app__navbar-icons">
+      <Icons />
+    </div>
+
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#58a6ff"
@@ -101,38 +78,8 @@ const Navbar = () => {
                   Contato
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/rogervalentim33/"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon
-                    id="icon"
-                    className="contact-icon"
-                    icon={faLinkedin}
-                  ></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/rogervalentim" target="_blank">
-                  <FontAwesomeIcon
-                    id="icon"
-                    className="contact-icon"
-                    icon={faGithub}
-                  ></FontAwesomeIcon>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://api.whatsapp.com/send/?phone=19994088614&text&type=phone_number&app_absent=0"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon
-                    id="icon"
-                    className="contact-icon"
-                    icon={faWhatsapp}
-                  ></FontAwesomeIcon>
-                </a>
+              <li className="link-icons">
+              <Icons />
               </li>
             </ul>
           </div>

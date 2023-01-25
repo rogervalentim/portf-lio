@@ -6,10 +6,10 @@
   .container-title {
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
   }
   
   .home-title {
-    margin-top: 200px;
     font-size: 50px;
     font-weight: 400;
     color: var(--color-title);

@@ -10,7 +10,7 @@
 }
 
 .card-technologie img {
-  width: 150px;
+  width: 100px;
 }
 
 .card-technologie h3 {
@@ -19,7 +19,7 @@
 }
 
 /* smartphone */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
   .card-technologie {
     width: 100px;
   }
