@@ -1,12 +1,14 @@
-import "./Tecnologias.css";
+import React from 'react';
 
 import TecnologiasCard from '../../components/Tecnologias/TecnologiasCard';
+
+import './Tecnologias.css';
 
 const tecnologies = [
   {
     imagem:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    name: "Html"
+    name: "Html",
   },
 
   {

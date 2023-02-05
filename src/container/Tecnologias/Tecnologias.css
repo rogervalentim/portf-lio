@@ -10,71 +10,24 @@
   font-size: 40px;
 }
 
-
 .cards {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
   margin-top: 50px;
+}
+
+/* smartphone */
+@media screen and (max-width: 767px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
 
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .technologies-container {
-    margin-top: 200px;
-  }
-
-  .technologies-title-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .technologies-title {
-    color: #f0f6fc;
-    font-weight: 400;
-    font-size: 50px;
-  }
-
-  .image-technologie-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .image-technologie {
-    margin-top: 20px;
-  }
-
-  .technologies-cards {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    margin-top: 80px;
-  }
-
-  .card-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .card-html,
-  .card-css,
-  .card-js,
-  .card-nodejs,
-  .card-git,
-  .card-mysql,
-  .card-mongodb,
-  .card-react {
-    width: 300px;
-    transition: all ease-in-out 1s;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-
-  .name-technologie {
-    display: flex;
-    justify-content: center;
-    color: var(--color-title);
-    font-size: 23px;
-    font-weight: 400;
-    text-transform: uppercase;
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }
