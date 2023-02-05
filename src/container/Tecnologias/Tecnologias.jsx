@@ -1,9 +1,3 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-
-import "swiper/css";
-import "swiper/css/pagination";
-
 import "./Tecnologias.css";
 
 import TecnologiasCard from '../../components/Tecnologias/TecnologiasCard';
@@ -74,27 +68,14 @@ function Tecnologias() {
   return (
     <section className="technologies-container" id="tecnologies">
       <h1 className="technologies-title">Tecnologias</h1>
-      <div className="card">
-      <Swiper
-        slidesPerView={4}
-        spaceBetween={30}
-        centeredSlides={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
+      <div className="cards">
           {tecnologies.map((technologie, i) => (
-            <SwiperSlide key={i}>
               <TecnologiasCard
                 key={i}
                 imagem={technologie.imagem}
                 name={technologie.name}
               />
-            </SwiperSlide>
           ))}
-        </Swiper>
       </div>
     </section>
   );
