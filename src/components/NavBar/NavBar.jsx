@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
+
 
 import Icons from "../Icons/Icons";
 
@@ -11,25 +14,25 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="app__navbar" id="navbar">
+    <nav className="app__navbar">
       <div className="app__navbar-logo">
         <h1>Roger</h1>
       </div>
       <ul className="app__navbar-links">
         <li className="link-navbar">
-          <a href="#home">Inicio</a>
+          <Link to="/">Inicio</Link>
         </li>
         <li className="link-navbar">
-          <a href="#about">Sobre</a>
+          <Link to="/sobre">Sobre</Link>
         </li>
         <li className="link-navbar">
-          <a href="#tecnologies">Tecnologias</a>
+          <Link to="/tecnologias">Tecnologias</Link>
         </li>
         <li className="link-navbar">
-          <a href="#projects">Projetos</a>
+          <Link to="/projetos">Projetos</Link>
         </li>
         <li className="link-navbar">
-          <a href="#contact">Contato</a>
+          <Link to="/contato">Contato</Link>
         </li>
       </ul>
     {/* icons  */}
@@ -54,29 +57,29 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="link-navbar">
-                <a href="#home" onClick={() => setToggleMenu(false)}>
+                <Link to="/" onClick={() => setToggleMenu(false)}>
                   Inicio
-                </a>
+                </Link>
               </li>
               <li className="link-navbar">
-                <a href="#about" onClick={() => setToggleMenu(false)}>
+                <Link to="/sobre" onClick={() => setToggleMenu(false)}>
                   Sobre
-                </a>
+                </Link>
               </li>
               <li className="link-navbar">
-                <a href="#tecnologies" onClick={() => setToggleMenu(false)}>
+                <Link to="/tecnologias" onClick={() => setToggleMenu(false)}>
                   Tecnologias
-                </a>
+                </Link>
               </li>
               <li className="link-navbar">
-                <a href="#projects" onClick={() => setToggleMenu(false)}>
+                <Link to="/projetos" onClick={() => setToggleMenu(false)}>
                   Projetos
-                </a>
+                </Link>
               </li>
               <li className="link-navbar">
-                <a href="#contact" onClick={() => setToggleMenu(false)}>
+                <Link to="/contato" onClick={() => setToggleMenu(false)}>
                   Contato
-                </a>
+                </Link>
               </li>
               <li className="link-icons">
               <Icons />

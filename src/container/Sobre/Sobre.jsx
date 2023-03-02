@@ -5,7 +5,7 @@ import Computer from "../../assets/images/sobre/computer.png";
 function Sobre() {
   return (
     <>
-      <section className="about" id="about">
+      <section className="about">
         <section className="about-container">
           <h3 className="about-title">Sobre Mim</h3>
           <div className="about-image-paragraph">

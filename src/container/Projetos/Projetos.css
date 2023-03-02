@@ -4,7 +4,7 @@
   color: var(--color-title);
   font-size: 40px;
   font-weight: 400;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .project {
@@ -12,7 +12,7 @@
   grid-template-columns: auto auto auto;
   justify-content: center;
   row-gap: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .project img {
