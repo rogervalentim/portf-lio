@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { NavBar, Footer } from "./components";
 import { Inicio, Sobre, Tecnologias, Projetos, Contato } from "./container";

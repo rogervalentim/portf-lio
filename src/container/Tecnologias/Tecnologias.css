@@ -1,5 +1,5 @@
 .technologies-container {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .technologies-title {
@@ -7,6 +7,7 @@
   justify-content: center;
   color: #f0f6fc;
   font-weight: 400;
+  margin-top: 50px;
   font-size: 40px;
 }
 
