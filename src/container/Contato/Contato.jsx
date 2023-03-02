@@ -24,7 +24,7 @@ function Contato() {
   return (
     <>
       <section className="contact">
-        <section className="contact-me" id="contact">
+        <div className="contact-me">
           <h1 className="contact-me-title">Entre em contato</h1>
           <form
             className=""
@@ -90,9 +90,6 @@ function Contato() {
               </button>
             </div>
           </form>
-        </section>
-        <div className="contact-container">
-          <img className="contact-image" src={ImageContact} />
         </div>
       </section>
     </>

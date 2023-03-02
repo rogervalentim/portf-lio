@@ -1,7 +1,6 @@
 .contact {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
 }
 
 .contact-icon {
@@ -17,7 +16,7 @@
 }
 
 .contact-me {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .contact-text {
@@ -42,7 +41,7 @@ form {
 
 form input {
   height: 56px;
-  width: 650px;
+  width: 1000px;
   background-color: var(--bg-card);
   border: 1px solid var(--button-color);
   color: var(--color-text);
@@ -85,7 +84,7 @@ form p {
   color: var(--color-text);
   text-decoration: none;
   background-color: var(--button-color);
-  width: 250px;
+  width: 100%;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -93,12 +92,6 @@ form p {
   cursor: pointer;
   text-align: center;
   margin-top: 20px;
-}
-
-.arrow {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 30px;
 }
 
 .contact-me-btn:hover {
@@ -109,9 +102,6 @@ form p {
   font-weight: 600;
 }
 
-.contact-image {
-  max-width: 500px;
-}
 
 /* smartphone */
 @media screen and (max-width: 767px) {
@@ -124,15 +114,6 @@ form p {
     text-align: center;
   }
 
-  .contact-image {
-    width: 330px;
-    margin-left: 20px;
-  }
-
-  .contact-me-btn {
-    width: 80%;
-  }
-
   form {
     display: flex;
     flex-direction: column;
@@ -142,15 +123,15 @@ form p {
   }
 
   form input {
-    width: 250px;
+    width: 100%;
   }
 
   form textarea {
-    width: 250px;
+    width: 100%;
   }
 
   .contact-me-btn {
-    width: 150px;
+    width: 100%;
   }
 
   .contact-container {
@@ -172,17 +153,17 @@ form p {
   }
 
   form input {
-    width: 500px;
+    width: 100%;
   }
 
   textarea {
-    width: 500px;
+    width: 100%;
   }
 
-  .contact-image {
-    width: 500px;
+  .contact-me-btn {
+    width: 1000px;
   }
-
+  
   .contact-container {
     display: grid;
     justify-content: center;
