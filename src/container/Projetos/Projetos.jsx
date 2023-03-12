@@ -8,6 +8,7 @@ import Lyrics from "../../assets/images/projetos/lyrics-app.png";
 import Restaurant from "../../assets/images/projetos/restaurant.png";
 import Dashboard from "../../assets/images/projetos/dashboard.png";
 import Gym from "../../assets/images/projetos/gym.png";
+import Livraria from "../../assets/images/projetos/livraria.png"
 
 const projects = [
   {
@@ -62,7 +63,17 @@ const projects = [
       "Gym app é um projeto fitness, para atrair clientes e mostrar os beneficios de uma academia.",
     linkGithub: "https://github.com/rogervalentim/gym_app",
     demo: "https://gym-app-mocha.vercel.app/"
+  },
+
+  {
+    image: Livraria,
+    title: "Livraria",
+    description:
+      "Livraria é um ecommerce, com todo conteudo criado por mim , utilizando as capas do livro com canva e imagens gratuitas do pexels.",
+    linkGithub: "https://github.com/rogervalentim/study-mysql",
+    demo: "https://github.com/rogervalentim/study-mysql"
   }
+
 ];
 
 function Projetos() {
