@@ -22,19 +22,6 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  display: none;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--bg-color) ;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--button-color) ;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--primary-color);
-}
