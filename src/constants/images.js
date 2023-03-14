@@ -1,3 +1,5 @@
+import Computer from "../assets/images/sobre/computer.png";
+
 import RocketPay from "../assets/images/projetos/rocket-pay.png";
 import Ecommerce from "../assets/images/projetos/ecommerce.png";
 import Lyrics from "../assets/images/projetos/lyrics-app.png";
@@ -6,7 +8,10 @@ import Dashboard from "../assets/images/projetos/dashboard.png";
 import Gym from "../assets/images/projetos/gym.png";
 import Livraria from "../assets/images/projetos/livraria.png";
 
+
+
 export default {
+    Computer,
     RocketPay,
     Ecommerce,
     Lyrics,

@@ -1,5 +1,12 @@
 import images from "./images";
 
+const about = [
+    {
+     text: "me chamo Roger Valentim e sou desenvolvedor full stack, sempre soube que a chave para o sucesso era o estudo, mas tinha dúvidas em qual área eu deveria estudar, até que eu descobri a programação no inicio de 2022 e desde então eu venho me identificando cada vez mais, venho participando de eventos da Rocktseat e outras comunidades, para eu ir me capacitando cada vez mais.",
+     image: images.Computer,
+    },
+]
+
 const projects = [
     {
       image: images.RocketPay,
@@ -66,4 +73,4 @@ const projects = [
   
   ];
 
-  export default { projects }
+  export default { projects, about }
