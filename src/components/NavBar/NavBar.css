@@ -85,6 +85,10 @@ a:hover {
   list-style: none;
 }
 
+.link-navbar {
+  color: white;
+}
+
 .app__navbar-smallscreen_links li {
   margin: 2rem;
   cursor: pointer;

@@ -9,63 +9,92 @@ const about = [
 
 const tecnologies = [
   {
-    imagem:
+    image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     name: "Html",
+    text: 
+    "HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.",
+    linkDocumentation: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
 
   {
-    imagem:
+    image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    name: "Css"
+    name: "Css",
+    text: 
+    "CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.",
+    linkDocumentation: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "Tailwindcss"
+    name: "Tailwindcss",
+    text: "O Tailwind é um framework do CSS que nos fornece classes utilitárias de propósito único que são, em sua maioria, opinativas e que nos ajudam a projetar nossas páginas da web diretamente de dentro de nossos arquivos de marcação ou . js/. jsx/.",
+    linkDocumentation: "https://tailwindcss.com/docs/installation",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    name: "Javascript"
+    name: "Javascript",
+    text: 
+    "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
+    linkDocumentation: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-    name: "Typescript"
+    name: "Typescript",
+    text: 
+    "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.",
+    linkDocumentation: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-    name: "Git"
+    name: "Git",
+    text: 
+    "Git ₍ₒᵤ em inglês britânico₎ é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.",
+    linkDocumentation: "https://git-scm.com/doc",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    name: "Node"
+    name: "Node",
+    text: 
+    "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos.",
+    linkDocumentation: "https://nodejs.org/en/",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
-    name: "MySql"
+    name: "MySql",
+    text: 
+    "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.",
+    linkDocumentation: "https://www.mysql.com/",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    name: "Mongo Db"
+    name: "Mongo Db",
+    text: 
+    "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.",
+    linkDocumention: "https://www.mongodb.com/docs/",
   },
 
   {
-    imagem:
+   image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    name: "React"
+    name: "React",
+    text: 
+    "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
+    linkDocumentation: "https://pt-br.reactjs.org/",
   }
 ];
 

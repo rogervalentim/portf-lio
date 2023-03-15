@@ -1,10 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 
-import ImageContact from "../../assets/images/contato/contato.png";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import "./Contato.css";
 
 function Contato() {

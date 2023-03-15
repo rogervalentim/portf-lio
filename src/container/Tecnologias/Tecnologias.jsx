@@ -15,8 +15,10 @@ function Tecnologias() {
           {data.tecnologies.map((technologie, i) => (
               <TecnologiasCard
                 key={i}
-                imagem={technologie.imagem}
+                image={technologie.image}
                 name={technologie.name}
+                text={technologie.text}
+                linkDocumentation={technologie.linkDocumentation}
               />
           ))}
       </div>

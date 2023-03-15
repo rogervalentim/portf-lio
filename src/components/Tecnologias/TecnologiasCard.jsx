@@ -1,11 +1,22 @@
-import React from 'react';
-import './TecnologiasCard.css';
-const TecnologiasCard = ({imagem, name}) => {
+
+import "./TecnologiasCard.css";
+const TecnologiasCard = ({ image, name, text, linkDocumentation }) => {
   return (
-   <div className="card-technologie">
-    <img src={imagem} alt="tecnologias de programação" />
-    <h3>{name}</h3>
-   </div>
+    <div>
+      <div className="card-technologie">
+       <div className="image-container">
+          <img className="Image large" src={image} />
+       </div>
+      <div>
+        <div className="Text bold">{name}</div>
+          <a href={linkDocumentation} target="_blank" className="Text faded">Ver a documentação</a>
+          </div>
+          <div className="Text">
+              {text}
+          </div>
+      </div>
+      </div>
+
   )
 }
 
