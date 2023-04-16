@@ -160,6 +160,14 @@ const projects = [
         "Livraria é um ecommerce, com todo conteudo criado por mim , utilizando as capas do livro com canva e imagens gratuitas do pexels.",
       linkGithub: "https://github.com/rogervalentim/study-mysql",
       demo: "https://github.com/rogervalentim/study-mysql"
+    },
+
+    {
+      image: images.Dashboard2 ,
+      title: "Dashboard",
+      description: "É um dashboard feito para avaliar os colaboradores de uma empresa",
+      linkGithub: "https://github.com/rogervalentim/dashboard",
+      demo: "https://643b45a79556b543743c2c31--stellar-panda-1a6c54.netlify.app/",
     }
   
   ];
