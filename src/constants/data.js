@@ -167,7 +167,7 @@ const projects = [
       title: "Dashboard",
       description: "É um dashboard feito para avaliar os colaboradores de uma empresa",
       linkGithub: "https://github.com/rogervalentim/dashboard",
-      demo: "https://643b45a79556b543743c2c31--stellar-panda-1a6c54.netlify.app/",
+      demo: "https://643ea4516a3cf1009f16687b--wonderful-palmier-54f516.netlify.app/",
     }
   
   ];
