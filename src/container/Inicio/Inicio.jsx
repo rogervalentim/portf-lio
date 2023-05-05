@@ -1,6 +1,6 @@
 import React from "react";
 import "./Inicio.css";
-import Avatar from "../../assets/images/inicio/avatar.png";
+import Avatar from "../../assets/images/inicio/avatar.svg";
 import Curriculum from "../../assets/images/inicio/curriculo-Roger-Valentim.pdf";
 import { TypeAnimation } from "react-type-animation";
 
